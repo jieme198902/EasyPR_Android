@@ -11,5 +11,17 @@
 感谢贡献EasyPR和EasyPR_Android的开发者，我也是站着他们的肩膀上继续前行，谢谢。
 
 
-
-
+Add it to your build.gradle with:
+```gradle
+allprojects {
+    repositories {
+        maven { url "https://jitpack.io" }
+    }
+}
+```gradle
+and:
+```gragle
+dependencies {
+    compile 'com.github.jieme198902:uniauto-appupdate-master:{latest version}'
+}
+```gradle
