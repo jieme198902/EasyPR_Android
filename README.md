@@ -18,10 +18,10 @@ allprojects {
         maven { url "https://jitpack.io" }
     }
 }
-```gradle
+```
 and:
 ```gragle
 dependencies {
     compile 'com.github.jieme198902:uniauto-appupdate-master:{latest version}'
 }
-```gradle
+```
