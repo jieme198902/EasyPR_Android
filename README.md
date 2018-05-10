@@ -22,6 +22,7 @@ allprojects {
 and:
 ```gragle
 dependencies {
-    compile 'com.github.jieme198902:uniauto-appupdate-master:{latest version}'
+	api 'com.github.jieme198902:EasyPR_Android:0.1'
 }
+
 ```
